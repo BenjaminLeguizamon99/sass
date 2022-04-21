@@ -1,0 +1,26 @@
+$color-fondo-principal: linear-gradient(to bottom, #1c1f22, #22262a, #292e32, #30353a, #373d43);
+$color-letra-principal: #e0e2db;
+$color-especial: #e5ab24;
+$color-letra-secundario: #090a0b;
+
+
+body {
+    background-image: $color-fondo-principal;
+    background-repeat: no-repeat;
+}
+.nav-list-item {
+    color: $color-letra-principal;
+    font-size: 1.2em;
+}
+.boton {
+    background-color: $color-especial;
+    color: $color-letra-secundario;
+}
+.texto-importante {
+    color: $color-especial;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+.footer-list-item {
+    color: $color-letra-principal;
+}
